@@ -1,0 +1,233 @@
+
+#body {
+    width: 100%;
+    height: 100%;   
+    z-index: -9000;
+    background: url(../img/photo_6.jpg) no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin-top: -900px;
+    
+}
+.box1 {
+    width: 100%;    
+    margin: 200px auto 0;
+    background: white;
+    padding: 100px 0;
+}
+.article {
+    width: 1000px;
+    background: white;
+    color: black;
+    margin: 0 auto;
+        
+}
+.article p {
+    margin-top: 30px;
+}
+
+main .box1:nth-child(1) {
+    margin-top: 800px;
+}
+span {
+    font-family: "MagdaCleanMonoWebW03-Rg";
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/* *{
+  box-sizing: border-box;
+} */
+
+/* body, html {   
+    margin: 0;
+  width: 100%;
+height: 100%;
+    padding: 0;
+} */
+
+body {
+  background-color: black;
+  /* display: flex;
+  display: -webkit-flex; */
+  /* -webkit-justify-content: center; */
+  /* -webkit-align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    max-width: 1000px;
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url(../img/photo_7.jpg);
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url(../img/photo_8.jpg);
+}
+.card--3 .card__img, .card--3 .card__img--hover {
+    background-image: url(../img/photo_31.jpg);
+}
+.card--4 .card__img, .card--4 .card__img--hover {
+    background-image: url(../img/photo_32.jpg);
+}
+
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.card {
+    margin-top: 100px;
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 33.3%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+    font-family: "MagdaCleanMonoWebW03-Rg";
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+
+
+footer{
+    width: 100%;
+    background: #e1e1e1;
+    height: 180px; 
+    clear: both;   
+    position: relative;
+    color: black;
+}
+footer #end {
+    width: 100%;
+    display: flex;    
+    justify-content: space-evenly;    
+    align-items: center;   
+}
+footer li:nth-child(1){
+    
+    line-height: 20px;
+}
+
+footer li:nth-child(2){
+    
+    margin-top: 20px ;
+    line-height: 20px;
+}
+
+footer li:nth-child(3){    
+    margin-top: 30px ;
+}
+footer .copy{
+    position: absolute;
+    bottom: 0;
+    background: #e1e1e1;
+    padding: 10px;
+    width: 97.8%;    
+}
+footer .copy p{
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+input{
+    width: 97%;
+    height: 30px;    
+    border: none;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 300px;
+    height: 30px;    
+    border: 1px solid black;    
+    margin-top: 5px;
+}
+footer li p{
+    font-size: small;
+    font-weight: 100;
+}

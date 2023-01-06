@@ -1,0 +1,101 @@
+body {
+    background: black;
+    position: relative;
+}
+#body {
+    width: 100%;
+    height: 900px;    
+    z-index: -9000;
+    background: url(../img/photo_30.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+    
+}
+article {
+    width: 1000px;
+    color: white;
+    margin: 100px auto 200px;
+}
+main {
+    width: 80%;
+    height: 50%;    
+    margin: -50px auto 300px;
+    color: white;
+    
+}
+img {
+    width: 50%;    
+}
+
+main p {
+    font-family: "MagdaCleanMonoWebW03-Rg";
+    width: 60%;
+}
+main h3 {
+    margin-bottom: 30px;
+}
+main .slider-nav {
+    margin-top: 250px;
+    margin-left: -70px;
+}
+main .slider-nav-next {
+    margin-right: -300px;
+}
+footer{
+    background: #e1e1e1;
+    height: 180px;
+    clear: both;
+    position: relative;
+    color: black;    
+}
+footer #end {
+    width: 100%;
+    display: flex;    
+    justify-content: space-evenly;    
+    align-items: center;   
+}
+footer li:nth-child(1){
+    
+    line-height: 20px;
+}
+
+footer li:nth-child(2){
+    
+    margin-top: 20px ;
+    line-height: 20px;
+}
+
+footer li:nth-child(3){    
+    margin-top: 30px ;
+}
+footer .copy{
+    position: absolute;
+    bottom: 0;
+    background: #e1e1e1;
+    padding: 10px;
+    width: 97.8%;
+}
+footer .copy p{
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+input{
+    width: 97%;
+    height: 30px;    
+    border: none;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 300px;
+    height: 30px;    
+    border: 1px solid black;    
+    margin-top: 5px;
+}
+footer li p{
+    font-size: small;
+    font-weight: 100;
+}
+
