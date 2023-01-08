@@ -53,7 +53,7 @@ header > #gnb::before {
     background: white;    
     display: block;
     height: 150px;
-    margin-top: -3px;    
+        
 }
 header > #gnb::before {
     display: none;
