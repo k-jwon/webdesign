@@ -48,13 +48,12 @@ header > #gnb::before {
     content: "";
     width: 100%;
     position: absolute;
-    top: 90px;
+    top: 85px;
     left: 0;    
     background: white;    
     display: block;
     height: 150px;
-    margin-top: -3px;
-        
+    margin-top: -5px;    
 }
 header > #gnb::before {
     display: none;
@@ -65,7 +64,7 @@ header > #gnb.on::before {
 
 header > #gnb > li .snb {
     position: absolute;
-    top: 70px;
+    top: 90px;
     display: none; 
 }
 
@@ -76,7 +75,7 @@ header > #gnb > li > .snb > ul > li+li {
     margin-top: 10px;    
 }
 #util {
-    padding: 20px 0 0;
+    padding: 20px 0;
 }
 p {
     text-align: justify;
