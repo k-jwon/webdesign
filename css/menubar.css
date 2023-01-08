@@ -53,7 +53,7 @@ header > #gnb::before {
     background: white;    
     display: block;
     height: 150px;
-    margin-top: -10px;
+    margin-top: -3px;
         
 }
 header > #gnb::before {
@@ -65,7 +65,7 @@ header > #gnb.on::before {
 
 header > #gnb > li .snb {
     position: absolute;
-    top: 90px;
+    top: 70px;
     display: none; 
 }
 
@@ -76,7 +76,7 @@ header > #gnb > li > .snb > ul > li+li {
     margin-top: 10px;    
 }
 #util {
-    padding: 20px 0;
+    padding: 20px 0 0;
 }
 p {
     text-align: justify;
