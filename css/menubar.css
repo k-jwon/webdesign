@@ -64,7 +64,7 @@ header > #gnb.on::before {
 
 header > #gnb > li .snb {
     position: absolute;
-    top: 90px;
+    top: 85px;
     display: none; 
 }
 
