@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "MagdaCleanMonoWebW03-Rg";
+    src: url(../fonts/MagdaCleanMonoWeb\ W03\ Regular.ttf);
+}
+main {    
+    height: 100%;
+    background: black;
+    padding-bottom: 200px;
+    
+}
+.obj1 {
+    width: 1000px;
+    color: white;
+    margin: 0px auto;    
+    text-align: justify;
+    line-height: 25px; 
+}
+hr {
+    width: 1000px;
+    margin: 130px auto 100px;    
+}
+article {
+    width: 1000px;
+    margin: 0px auto;
+}
+.obj1 h2 {
+    color: white;
+    padding-top: 200px;
+}
+h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.obj1 span {
+    font-family: "MagdaCleanMonoWebW03-Rg";
+}
+
+
+
+* {
+	transition: 300ms;
+}
+.card {
+	background:url(../img/photo_10.jpg);
+	background-size: cover;	
+	width: 1000px;
+    height: 600px;	
+	border-radius: 10px;	
+}
+.card:hover{
+	background:url(../img/photo_11.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transform:scale(1.03);	
+}
+.card1 {
+	background:url(../img/photo_12.jpg);
+	background-size: cover;	
+	width: 1000px;
+    height: 600px;	
+	border-radius: 10px;	
+}
+.card1:hover{
+	background:url(../img/photo_13.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transform:scale(1.03);
+	
+}
+.card2 {
+	background:url(../img/photo_14.jpg);
+	background-size: cover;	
+	width: 1000px;
+    height: 600px;	
+	border-radius: 10px;
+    	
+}
+.card2:hover{
+	background:url(../img/photo_15.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transform:scale(1.03);
+	
+}
+
+
+
+
+/* 푸터 */
+footer{
+    background: #e1e1e1;
+    height: 180px; 
+    clear: both;   
+    position: relative;
+    color: black;
+}
+footer #end {
+    width: 100%;
+    display: flex;    
+    justify-content: space-evenly;    
+    align-items: center;   
+}
+footer li:nth-child(1){
+    
+    line-height: 20px;
+}
+
+footer li:nth-child(2){
+    
+    margin-top: 20px ;
+    line-height: 20px;
+}
+
+footer li:nth-child(3){    
+    margin-top: 30px ;
+}
+footer .copy{
+    position: absolute;
+    bottom: 0;
+    background: #e1e1e1;
+    padding: 10px;
+    width: 97.8%;    
+}
+footer .copy p{
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+input{
+    width: 97%;
+    height: 30px;    
+    border: none;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 300px;
+    height: 30px;    
+    border: 1px solid black;    
+    margin-top: 5px;
+}
+footer li p{
+    font-size: small;
+    font-weight: 100;
+}
